@@ -1,6 +1,7 @@
 import { Application } from 'express';
 
 export default (app: Application) => {
-  const routes = () => true;
+  // eslint-disable-next-line @typescript-eslint/no-empty-function
+  const routes = () => {};
   routes();
 };
